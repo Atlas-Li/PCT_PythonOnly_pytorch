@@ -1,4 +1,4 @@
-## PCT: Point Cloud Transformer
+# PCT: Point Cloud Transformer
 This is a Pytorch implementation of PCT: Point Cloud Transformer.
 
 Paper link: https://arxiv.org/pdf/2012.09688.pdf
