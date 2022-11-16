@@ -150,12 +150,7 @@ def test(args, io):
     test_pred = []
 
     for data, label in tqdm.tqdm(test_loader):
-        print(data.shape)   # [B, npoints, 3]
-        print(label)
-        # trimesh.PointCloud(data[0]).export(os.path.join(vis_out_path, "test.ply"))
 
-        # print(label.shape)  # [B, 1]
-        exit()
         data, label = data.to(device), label.to(device).squeeze()
         data = data.permute(0, 2, 1)
         logits = model(data)
