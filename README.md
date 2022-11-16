@@ -12,6 +12,12 @@ h5py
 
 scikit-learn
 
+### Dataset
+Download the ModelNet40(http://modelnet.cs.princeton.edu/) with running "data.py" 
+```shell script
+python data.py
+```
+
 
 ### Models
 Get an accuracy of 93.2% on the ModelNet40(http://modelnet.cs.princeton.edu/) validation dataset
